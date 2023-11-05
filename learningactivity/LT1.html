@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning Activity 1</title>
+  <style>
+    body {
+      background-image: url(Background.jpg);
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Home and me</h1>
+
+  <img src="Background.jpg" alt="Image" width="400" height="300">
+
+  <map name="Home">
+    <area 
+    shape="rect" 
+    coords="2,2,609,309" 
+    href="https://www.google.com/maps/@14.416668,120.9890488,3a,60y,292.21h,82.54t/data=!3m6!1e1!3m4!1s7AQQ-ifwa--2fgVJeh_3xg!2e0!7i13312!8i6656?entry=ttu" 
+    alt="Home">
+  </map>
+
+  <img src="/house.JPG" alt="Home" usemap="#Home" width="500">
+
+  <picture>
+    <source srcset="me1.jpg" media="(min-width: 500px)">
+    <source srcset="me2.jpg" media="(min-width: 650px)">
+    <source srcset="me3.jpg" media="(min-width: 650px)">
+    <img src="me.jpg" alt="me">
+  </picture>
+
+</body>
+</html>
